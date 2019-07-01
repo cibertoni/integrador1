@@ -1,6 +1,6 @@
-<footer>
+<div>
   <div class="info">
-    <p>Café Blend</p>
+    <p>Blend</p>
     <p>Endereço: Av. Dr. Cardoso de Melo, 90</p>
     <p>Telefone: 9-9999-9999</p>
   </div>
@@ -16,4 +16,4 @@
       <button type="submit" name="subscribe">Assinar</button>
     </form>
   </nav>
-</footer>
+</div>

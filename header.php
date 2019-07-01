@@ -1,13 +1,13 @@
 <header>
+  <h1>Blend</h1>
   <nav class="global">
-    <h1>Blend Café</h1>
-    <ul>
+    <ul class="menu">
       <li><a href="#">home</a></li>
       <li><a href="#">loja</a></li>
       <li><a href="#">sobre</a></li>
       <li><a href="#">contato</a></li>
     </ul>
-    <a href="#">compras</a>
-    <a class="button" href="#">login</a>
   </nav>
+  <a href="#">compras</a>
+  <a href="#">login</a>
 </header>

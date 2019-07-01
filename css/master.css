@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i,700,700i&display=swap');
+
+:root {
+  --color-cafe: #c7a17a;
+  --color-dark: #333;
+}
+
+html * {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--color-dark);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Tipografia */
+h1 {
+  color: var(--color-cafe);
+  font-family: 'Norican', cursive;
+  font-size: 2.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: var(--color-dark);
+  box-shadow: 0 2px 8px var(--color-dark);
+  align-items: center;
+  display: grid;
+  grid-column-gap: 16px;
+  grid-template-columns: auto 1fr auto auto;
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
+header a {
+  color: #fff;
+  padding: 8px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  color: var(--color-cafe);
+  transition: color 0.2s;
+}
+
+ul.menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+ul.menu li {
+  display: inline-block;
+  padding-right: 32px;
+}
+
+ul.menu li:last-child {
+  padding-right: 0;
+}
