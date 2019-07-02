@@ -25,14 +25,15 @@
       <div class="boxPrincipalDoProduto">
         <div class="boxImagensDoProduto">
           <div class="imagemPrincipalProduto">
-            <img src="img/VCF-02-100W-min.webp" alt="Prensa Francesa" width="600px">
+            <img src="img/VCF-02-100W-min.webp" alt="Prensa Francesa" width="300px">
           </div>
           <div class="imagensSecundariasProduto">
-            <img src="img/VCF-02-100W-min.webp" alt="" width="200px"><a href="#"></a>
-            <img src="img/VCF-02-100W-min.webp" alt="" width="200px"><a href="#"></a>
-            <iframe width="200" height="200" src="https://www.youtube.com/embed/fOFg-awZXKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img src="img/VCF-02-100W-min.webp" alt="" width="100px"><a href="#"></a>
+            <img src="img/VCF-02-100W-min.webp" alt="" width="100px"><a href="#"></a>
+            <iframe width="100" height="100" src="https://www.youtube.com/embed/fOFg-awZXKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
+
         <div class="boxResumoDoProduto">
           <h2>Lorem ipsum dolor sit amet</h2>
           <p class="precoAtual"><span>$270.00</span></p>
@@ -58,7 +59,7 @@
         </div>
       </div>
 
-      <div class="navbarIntermediariaProduto">
+      <div class="navbarIntermediariaDescricao">
         <ul>
           <li><a href="#">Descrição</a> | </li>
           <li><a href="#">Avaliações(1)</a></li>
@@ -83,7 +84,7 @@
                 <tbody>
                   <tr>
                     <td><strong>Nome Avaliador</strong></td>
-                    <td>Data</td>
+                    <td><strong>Data</strong></td>
                   </tr>
                   <tr>
                     <td>
@@ -115,18 +116,57 @@
                   <input type="radio" name="Avaliacao" value="4">
                   <input type="radio" name="Avaliacao" value="5">
               </div>
-              <button type="button" id="button-review" data-loading-text="Loading..." class="btn btn-primary">Continue</button>
+              <button type="button" id="button-review" class="botaoContinueAvaliacao">Continue</button>
             </form>
           </div>
     	</div>
 
+      <div class="navbarIntermediariaProdutosRelacionados">
+        <h2>Produtos Relacionados</h2>
+      </div>
+
+      <div class="boxProdutosRelacionados">
+        <div class="itemProdutosRelacionados"><a href="#">
+          <img src="img/cafe_orfeu_Kit_completo_hario.webp" alt="" width="100px">
+          <h4 class="nomeProdutosRelacionados"><a href="#">Kit Completo</a></h4>
+          <div class="precoProdutosRelacionados">
+             <label>Preço</label><br>
+             <label>R$ 30.00<span></span></label>
+          </div>
+          <div class="ratingProdutosRelacionados">
+            <!-- Inserir o código para aparecer a avaliação em formato de estrela -->
+          </div>
+          <button type="button" class="botaoComprarBoxProdutosRelacionados"><span>Comprar</span></button>
+        </div>
+        <div class="itemProdutosRelacionados"><a href="#">
+          <img src="img/cafe-orfeu-Prensa-Francesa-1L-Mod-Brazil-Bodum-miniatura.webp" alt="" width="100px">
+          <h4 class="nomeProdutosRelacionados"><a href="#">Cafeteira Prensa Francesa</a></h4>
+          <div class="precoProdutosRelacionados">
+             <label>Preço</label><br>
+             <label>R$ 100.00<span></span></label>
+          </div>
+          <div class="ratingProdutosRelacionados">
+            <!-- Inserir o código para aparecer a avaliação em formato de estrela -->
+          </div>
+          <button type="button" class="botaoComprarBoxProdutosRelacionados"><span>Comprar</span></button>
+        </div>
+        <div class="itemProdutosRelacionados"><a href="#">
+          <img src="img/cafe-orfeu-chaleira-em-aco-inox-buono-10-hario.webp" alt="" width="100px">
+          <h4 class="nomeProdutosRelacionados"><a href="#">Chaleira em aço</a></h4>
+          <div class="precoProdutosRelacionados">
+             <label>Preço</label><br>
+             <label>R$ 80.00<span></span></label>
+          </div>
+          <div class="ratingProdutosRelacionados">
+            <!-- Inserir o código para aparecer a avaliação em formato de estrela -->
+          </div>
+          <button type="button" class="botaoComprarBoxProdutosRelacionados"><span>Comprar</span></button>
+        </div>
+      </div>
+
     </main>
   </body>
 </html>
-
-
-
-
 
 <?php
   include_once('footer.php');
